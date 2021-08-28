@@ -105,12 +105,20 @@ body{
     position: absolute;
 }
 .genres{
-    margin-top:3%;
-    margin-left:3%;
+    font-family: text;
+    color: black;
+    background-color:white;
+    height:5%;
+    margin-top:-3.3%;
+    width: 100%;
+    z-index: 1;
+    margin-left:0%;
+    position: fixed;
 }
+
 .genres ul{
     list-style: none;
-    
+    margin-top: 1%;
 }
 .genres ul li{
     display: inline;
@@ -131,6 +139,7 @@ body{
 }
 .contents{
     width: 75%;
+    margin-top: 7%;
     margin-left: 5%;
 }
 .contents h2{
