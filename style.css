@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
 body{
     margin: 0%;
     padding: 0%;
@@ -15,6 +21,7 @@ body{
     position: flex;
 
 }
+
 .navbar{
     background-color: #f2f2f2;
     height: 10%;
@@ -31,7 +38,7 @@ body{
     margin-left: 13%;
     margin-top: -1.5%;
     position: relative;
-
+    
 }
 #search{
     width: 30%;
@@ -39,9 +46,184 @@ body{
     border-radius: 25px;
     border: 1px solid #ccc;
     padding: 10px;
-    font-size: 16px;
+    font-size: 13px;
     font-family: sans-serif;
     margin-left: -1%;
     margin-top: -1%;
+    
+    padding: 10px;
+    text-align: center;
+}
+#search-btn{
+    position: absolute;
+}
+.ad{
+    margin-left: 75%;
+    margin-top: -2%;
+}
+.ads{
 
+    border: 1px solid #e72c30;
+    border-radius: 25px;
+    color:#e72c30;
+    width: 20%;
+    height: 5%;
+}
+.ad-pro{
+    margin-left: 82%;
+    margin-top: -1%;
+}
+.ads-pro{
+
+    border: 1px solid #e72c30;
+    border-radius: 25px;
+    color:#e72c30;
+    width: 30%;
+    height: 5%;
+}
+.bilingual{
+    margin-left: 90%;
+    margin-top: -1%;
+    position: absolute;
+    width: 1%;
+    color: #5c5858;
+    border-radius: 50%;
+    border: 1px solid #5c5858;
+}
+.dark{
+    margin-left: 93%;
+    position: absolute;
+    margin-top: -1%;
+}
+.user{
+    margin-left: 95%;
+    margin-top: -1%;
+    position: absolute;
+}
+.genres{
+    margin-top:3%;
+    margin-left:3%;
+}
+.genres ul{
+    list-style: none;
+    
+}
+.genres ul li{
+    display: inline;
+    margin-left: 1%;
+    margin-top: 1%;
+}
+#slider{
+    margin-top: 1%;
+    overflow: hidden;
+}
+#slider figure{
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: slider 5s linear infinite;
+
+}
+.contents{
+    width: 75%;
+    margin-left: 5%;
+}
+.contents h2{
+    margin-top: 1%;
+}  
+.contents h3{
+    float: right;
+}
+.contents ul{
+    list-style: none;
+}
+.contents ul li{
+    margin-top: 3%;
+    display: inline;
+}
+@font-face {
+    font-family: text;
+    src: url(./text.otf);
+}
+.recent{
+    float: left;
+    font-family: text;
+    font-size: 20px;
+}
+.see{
+    float: right;
+}
+.plus_ad{
+    float: right;
+    position: absolute;
+    right: 1%;
+    margin-top: -15%;
+}
+
+.song{
+    margin-left:0%;
+    position: relative;
+    margin-top: 5%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.song-img img{
+    width: 10%;
+}
+.song-name{
+    position: relative;
+    margin-top: 0%;
+    margin-left: 25%;    
+}
+.movie{
+    position: relative;
+    margin-top: 0%;
+    margin-left: 25%;    
+}
+.menu{
+    position: absolute;
+    margin-top: -12%;
+    right: 1%;   
+    color:red; 
+} 
+.song-list{
+    list-style: none;
+}
+.song-list li{
+    display: inline;
+}
+.blocks{
+    width: 100%;
+    height: auto;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+
+.blocks>div>span>img{
+    width:100%;
+    height:150px;
+    object-fit:cover;
+    float:left;
+    
+}
+.blocks>div>h1{
+    font-size: 20px;
+    float: left;
+    padding-left:10px;
+    
+    
+}
+.blocks>div{
+    width:25%;
+    height:150px;
+    float: left;
+    margin-top:20px;
+    margin-left: 30px;
+    border-radius:10px;
+    
+}
+.blocks>div>span>img{
+    width:50%;
+    border-radius:0;
 }
